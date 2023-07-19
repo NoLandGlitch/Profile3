@@ -350,3 +350,52 @@ div.mini-menu {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .nav h1 {
+    font-size: 12vw;
+  }
+  
+  .slider h1 {
+    font-size: 8vw;
+  }
+  
+  .slider h2 {
+    font-size: 6vw;
+  }
+  
+  .nav-tab {
+    font-size: 4vw;
+  }
+  
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive adjustments for even smaller screens */
+@media screen and (max-width: 480px) {
+  .nav h1 {
+    font-size: 16vw;
+  }
+  
+  .slider h1 {
+    font-size: 12vw;
+  }
+  
+  .slider h2 {
+    font-size: 8vw;
+  }
+  
+  .nav-tab {
+    font-size: 6vw;
+  }
+  
+  .gallery-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+p {
+  margin: 25px;
+}
+
