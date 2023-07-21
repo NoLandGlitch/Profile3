@@ -399,3 +399,17 @@ p {
   margin: 25px;
 }
 
+.skill {
+  font-size: 1.5rem;
+  color: #03dac6;
+}
+
+.skill1 {
+  font-size: 3.5rem;
+  color: #faebd7;
+}
+
+.skill2 {
+  font-size: 2.5rem;
+  color: #faebd7;
+}

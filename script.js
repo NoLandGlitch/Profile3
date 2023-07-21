@@ -1,3 +1,10 @@
+/* Credit and Thanks:
+Matrix - Particles.js;
+SliderJS - Ettrics;
+Design - Sara Mazal Web;
+Fonts - Google Fonts
+*/
+
 window.onload = function () {
   Particles.init({
     selector: ".background"
@@ -124,4 +131,12 @@ class NavigationPage {
     $(".nav-tab-slider").css("left", left);
   }
 }
+
+
 new NavigationPage();
+/* Credit and Thanks:
+Matrix - Particles.js;
+SliderJS - Ettrics;
+Design - Sara Mazal Web;
+Fonts - Google Fonts
+*/
